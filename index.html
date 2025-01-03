@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Recipe App</title>
+</head>
+<body>
+    <nav>
+        <p class="ml-1">Recipe App</p>
+        <button>save</button>
+    </nav>
+    <header>
+
+        <h1 class="ml-1 my-1">Recipes</h1>
+        <p class="center-text mx-1 mb-1">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora optio,
+             consequuntur at in sequi eos est reiciendis doloremque beatae, eius ipsum
+              doloribus totam commodi et distinctio cumque delectus quas unde.
+        </p>
+    </header>
+
+    <main>
+        <form id="meal-form" class="center-text my-1">
+            <input type="text" name="search" placeholder="Search for a meal">
+
+            <input type="submit" value="find">
+        </form>
+
+        <div class="searched-meal">
+
+        </div>
+
+        <h2 class="pick-of-week center-text my-2">Your Favourite Picks</h2>
+        <div class="favs-meal meals-container my-2">
+
+        </div>
+
+        <h2 class="pick-of-week center-text my-2">Random Picks</h2>
+        
+        <div class="random-meals meals-container">
+            
+        </div>
+
+        <h2 class="recipe-ingredients center-text my-2">Recipes by ingredients</h2>
+
+        <div class="ingredients-meals mb-2">
+            <div class="meal-card">
+                <img src="https://themealdb.com/images/ingredients/Beef.png" alt="">
+                <button id="beef">Beef</button>
+            </div>
+            <div class="meal-card">
+                <img src="https://themealdb.com/images/ingredients/Salmon.png" alt="">
+                <button id="salmon">Salmon</button>
+            </div>
+            <div class="meal-card">
+                <img src="https://themealdb.com/images/ingredients/Chicken.png" alt="">
+                <button id="chicken">Chicken</button>
+            </div>
+        </div>
+
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
